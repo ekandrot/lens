@@ -18,4 +18,4 @@ obj/%.o: %.cpp
 
 .PHONY: clean
 clean:
-	rm obj/* $(TARGET)
+	-rm obj/* $(TARGET)
