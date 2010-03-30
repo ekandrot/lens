@@ -24,7 +24,7 @@ class Group : public Thing {
 
     void add( Thing *thing ) {things_.push_back( thing );}
 
-    const std::vector<Thing*> *things( void ) const {return &things_;}
+    const std::vector<Thing*>& things( void ) const {return things_;}
 
   private:
     std::vector<Thing*> things_;

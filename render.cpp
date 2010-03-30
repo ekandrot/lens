@@ -22,7 +22,7 @@ void Render::set_camera( const Camera& camera ) {
 void Render::parse_thing( const Thing *thing ) {
     if (typeid(*thing) == typeid(Group)) {
         const Group *g = dynamic_cast<const Group*>( thing );
-        for (std::vector<Thing*>::const_iterator i=g->things()->begin(); i!=g->things()->end(); ++i) {
+        for (std::vector<Thing*>::const_iterator i=g->things().begin(); i!=g->things().end(); ++i) {
             parse_thing( *i );
         }
     } else if (typeid(*thing) == typeid(Sphere)) {
