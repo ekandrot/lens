@@ -1,0 +1,5 @@
+(location 0.0 0.0 10.0)
+(lookat 0.0 0.0 0.0)
+(orientation 0.0 1.0 0.0)
+(backing 0.01 0.01)     # 10x10 cm
+
