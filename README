@@ -1,0 +1,5 @@
+Project lens
+
+lens will have a common world model that can then be rendered in OpenGL or ray traced.
+
+It is a place that I will use for some ray tracing and OpenGL experiments.
