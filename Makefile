@@ -1,5 +1,5 @@
 OBJS = obj/main.o obj/render.o obj/world.o
-INC = -I/home/reed/arcane/opengl/glutclass/glclasses
+INC = -I../glutclass/glclasses
 CC = g++
 CFLAGS = -O3
 TARGET = lens
